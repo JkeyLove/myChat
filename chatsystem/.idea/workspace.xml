@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="323f8122-7f1f-4044-8ae9-c6ff552fcde3" name="Changes" comment="初始化">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/chatsystem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gcc/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gcc/business/chatcontroller/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gcc/business/htmlcontroller/HtmlController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gcc/business/message/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gcc/business/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gcc/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gcc/dataobject/ChatMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/toastr.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/toastr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery/jquery-3.6.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery/jquery-3.6.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/l2dwidget/L2Dwidget.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/l2dwidget/L2Dwidget.0.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/l2dwidget/L2Dwidget.common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/l2dwidget/L2Dwidget.common.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/l2dwidget/L2Dwidget.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/l2dwidget/L2Dwidget.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/popper/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/popper/umd/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/popper/umd/popper-utils.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/popper/umd/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/popper/umd/popper-utils.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/popper/umd/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/popper/umd/popper.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/popper/umd/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/popper/umd/popper.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/websocket/sockjs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/websocket/stomp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/moc/wanko.1024/texture_00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/moc/wanko.moc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/mtn/idle_01.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/mtn/idle_02.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/mtn/idle_03.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/mtn/idle_04.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/mtn/shake_01.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/mtn/shake_02.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/mtn/touch_01.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/mtn/touch_02.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/mtn/touch_03.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/mtn/touch_04.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/mtn/touch_05.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/mtn/touch_06.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/wanko.model.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/room.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/gcc/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/gcc/business/chatcontroller/ChatController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/gcc/business/htmlcontroller/HtmlController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/gcc/business/message/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/gcc/business/user/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/gcc/config/WebSocketConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/gcc/dataobject/ChatMessage$MessageType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/gcc/dataobject/ChatMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/toastr.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap/toastr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/jquery/jquery-3.6.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/jquery/jquery-3.6.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/l2dwidget/L2Dwidget.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/l2dwidget/L2Dwidget.0.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/l2dwidget/L2Dwidget.common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/l2dwidget/L2Dwidget.common.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/l2dwidget/L2Dwidget.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/l2dwidget/L2Dwidget.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/popper/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/popper/umd/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/popper/umd/popper-utils.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/popper/umd/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/popper/umd/popper-utils.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/popper/umd/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/popper/umd/popper.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/popper/umd/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/popper/umd/popper.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/websocket/sockjs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/websocket/stomp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/moc/wanko.1024/texture_00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/moc/wanko.moc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/mtn/idle_01.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/mtn/idle_02.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/mtn/idle_03.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/mtn/idle_04.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/mtn/shake_01.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/mtn/shake_02.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/mtn/touch_01.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/mtn/touch_02.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/mtn/touch_03.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/mtn/touch_04.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/mtn/touch_05.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/mtn/touch_06.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/wanko.model.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/room.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2XiluTxK2Tjqwln95iDFds8pWry" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "54712f9c1e0753a0a286d332d278ef51",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProject\chatsystem\src\main\resources\static\models\shizuku" />
+      <recent name="D:\IdeaProject\chatsystem\src\main\resources\static\model" />
+      <recent name="D:\IdeaProject\chatsystem\src\main\resources\static\js\l2dwidget" />
+      <recent name="D:\IdeaProject\chatsystem\src\main\resources\static\css\bootstrap" />
+      <recent name="D:\IdeaProject\chatsystem\src\main\resources\static\js\websocket" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProject\chatsystem\src\main\resources\static\css" />
+      <recent name="D:\IdeaProject\chatsystem\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="chatsystem" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="gcc.Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gcc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="323f8122-7f1f-4044-8ae9-c6ff552fcde3" name="Changes" comment="" />
+      <created>1699120005449</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699120005449</updated>
+      <workItem from="1699120006610" duration="1194000" />
+      <workItem from="1699283362450" duration="14364000" />
+      <workItem from="1699347978395" duration="6430000" />
+      <workItem from="1699582008902" duration="3544000" />
+      <workItem from="1699585593084" duration="1135000" />
+      <workItem from="1699604642180" duration="316000" />
+      <workItem from="1699619224215" duration="1584000" />
+      <workItem from="1700210011112" duration="894000" />
+      <workItem from="1700291727548" duration="2029000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/resources/templates/room.html</url>
+          <line>135</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/resources/templates/room.html</url>
+          <line>84</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/resources/templates/room.html</url>
+          <line>58</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

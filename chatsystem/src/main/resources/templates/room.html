@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Chat Room</title>
+  <link rel="stylesheet" href="/css/bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="/css/bootstrap/toastr.min.css">
+  <script src="/js/jquery/jquery-3.6.4.js"></script>
+  <script src="/js/bootstrap/bootstrap.bundle.js"></script>
+  <script src="/js/websocket/sockjs.min.js"></script>
+  <script src="/js/websocket/stomp.min.js"></script>
+  <script src="/js/bootstrap/toastr.min.js"></script>
+  <script src="/js/l2dwidget/L2Dwidget.min.js"></script>
+  <style>
+    body { padding-top: 50px; }
+    #messageArea { height: 580px; overflow-y: scroll; }
+    #message {
+      resize: none; /* 防止用户调整大小 */
+      overflow-y: auto; /* 内容过多时显示滚动条 */
+    }
+    .chat-message { margin: 5px; padding: 10px; border: 1px solid #ddd; border-radius: 5px; }
+    .my-message { text-align: right; }
+    .other-message { text-align: left; }
+    .event-message { color: #999; text-align: center; }
+  </style>
+</head>
+<body>
+<div id="login-page" class="container">
+  <div class="row justify-content-center align-items-center" style="height:100vh;">
+    <div class="col-4">
+      <div class="form-group">
+        <input type="text" id="name" class="form-control" placeholder="输入你的名字" />
+        <button class="btn btn-primary mt-2" onclick="gotoRoom();">进入房间</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="chat-page" class="container d-none">
+  <div class="row justify-content-center">
+    <div class="col-8">
+      <ul id="messageArea" class="list-unstyled"></ul>
+      <div class="form-group mt-3">
+        <textarea id="message" class="form-control" placeholder="输入聊天内容..." rows="4"></textarea>
+        <button class="btn btn-primary mt-2" onclick="sendMessage();">发送</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script th:inline="javascript">
+  /*<![CDATA[*/
+
+  var stompClient = null;
+  var username = null;
+
+  function gotoRoom(){
+    username = $("#name").val().trim();
+    if(username && username!=="") {
+      $.ajax({
+        url: "/checkRepeatedName",
+        async: false,
+        type: "POST",
+        data: {"username":username},
+        success: function (data) {
+          if(data==="success"){   //如果检测到没有重复名
+            connect();
+          }else{
+            toastr.warning("房间中有重复名字!");
+          }
+        }
+      });
+    }else{
+      toastr.warning("请输入一个名字!");
+    }
+  }
+
+  function connect() {
+    let socket = new SockJS('/chat');
+    stompClient = Stomp.over(socket);
+    stompClient.connect({}, function (frame) { //建立连接
+        $('#login-page').hide();
+        $('#chat-page').show();
+        stompClient.subscribe('/topic/public', function (greeting) { //订阅/topic/public的消息，每次拿到的是该消息是greeting，以下是拿到消息会做的事
+            showMessage(JSON.parse(greeting.body));
+        });
+        stompClient.send("/app/chat.addUser",
+                {},
+                JSON.stringify({sender: username, type: 'JOIN', content:'进入了聊天室'})
+        ); //发送消息去该路径
+        $('#login-page').addClass('d-none');
+        $('#chat-page').removeClass('d-none');
+        initMessage();
+        initL2DModel();
+    });
+  }
+
+  function initL2DModel(){
+    L2Dwidget.init({
+      "model": {
+        "jsonPath": "/models/wanko/assets/wanko.model.json", // 模型的路径
+        "scale": 1 // 放大模型
+      },
+      "display": {
+        "position": "left", // 模型位置改为左侧
+        "width": 300, // 宽度调整
+        "height": 300, // 高度调整
+        "hOffset": 0, // 水平偏移
+        "vOffset": 0 // 垂直偏移
+      },
+      "mobile": {
+        "show": true,
+        "scale": 0.5 // 移动设备上的缩放
+      },
+      "react": {
+        "opacityDefault": 0.7, // 默认不透明度
+        "opacityOnHover": 0.8 // 鼠标悬停时的不透明度
+      }
+    });
+  }
+
+  function initMessage(){ //初始化拿到的消息
+    $.ajax({
+      url: "/initMessage",
+      async: false,
+      type: "POST",
+      data: { },
+      success: function (data) {
+        if(data && data.length>0){
+          for(let i=0;i<data.length;i++){
+            showMessage(data[i]);
+          }
+        }
+      }
+    });
+  }
+
+  function sendMessage() {
+    let messageContent = $("#message").val().trim();
+    if(messageContent && stompClient) {
+      let chatMessage = {
+        sender: username,
+        content: messageContent,
+        type: 'CHAT'
+      };
+      stompClient.send("/app/chat.sendMessage", {}, JSON.stringify(chatMessage));
+      $('#message').val('');
+    }
+  }
+
+  function showMessage(message) {
+    let messageElement = $('<li class="chat-message"></li>');
+    if(message.type === 'CHAT') {
+      let alignmentClass = message.sender === username ? 'my-message' : 'other-message';
+      messageElement.addClass(alignmentClass);
+      messageElement.html('<strong>' + message.sender + '</strong><br/>' + message.content);
+    } else {
+      messageElement.addClass('event-message');
+      messageElement.text('-- ' + message.sender + ' ' + message.content + ' --');
+    }
+    $('#messageArea').append(messageElement);
+    $('#messageArea').scrollTop($('#messageArea')[0].scrollHeight);
+  }
+
+  $(document).ready(function () {
+    $('#message').keypress(function (event) {
+      let messageContent = $(this).val().trim();
+      if (event.which === 13 && !event.shiftKey) { // 如果是回车键而不是Shift+回车
+        event.preventDefault(); // 阻止默认行为（避免换行）
+        if (messageContent && messageContent.length <= 500) {
+          sendMessage();
+        } else if (messageContent.length > 500) {
+          toastr.warning('不能发送超过500个字符的消息。');
+        }
+      }
+    });
+  });
+  /*]]>*/
+</script>
+</body>
+</html>
