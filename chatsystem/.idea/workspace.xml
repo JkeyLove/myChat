@@ -5,144 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="323f8122-7f1f-4044-8ae9-c6ff552fcde3" name="Changes" comment="初始化">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/chatsystem.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gcc/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gcc/business/chatcontroller/ChatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gcc/business/htmlcontroller/HtmlController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gcc/business/message/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gcc/business/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gcc/config/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gcc/dataobject/ChatMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/toastr.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/toastr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery/jquery-3.6.4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery/jquery-3.6.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/l2dwidget/L2Dwidget.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/l2dwidget/L2Dwidget.0.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/l2dwidget/L2Dwidget.common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/l2dwidget/L2Dwidget.common.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/l2dwidget/L2Dwidget.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/l2dwidget/L2Dwidget.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/popper/popper-utils.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/popper/umd/popper-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/popper/umd/popper-utils.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/popper/umd/popper-utils.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/popper/umd/popper-utils.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/popper/umd/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/popper/umd/popper.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/popper/umd/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/popper/umd/popper.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/websocket/sockjs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/websocket/stomp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/moc/wanko.1024/texture_00.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/moc/wanko.moc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/mtn/idle_01.mtn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/mtn/idle_02.mtn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/mtn/idle_03.mtn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/mtn/idle_04.mtn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/mtn/shake_01.mtn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/mtn/shake_02.mtn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/mtn/touch_01.mtn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/mtn/touch_02.mtn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/mtn/touch_03.mtn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/mtn/touch_04.mtn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/mtn/touch_05.mtn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/mtn/touch_06.mtn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/models/wanko/assets/wanko.model.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/room.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/gcc/Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/gcc/business/chatcontroller/ChatController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/gcc/business/htmlcontroller/HtmlController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/gcc/business/message/Message.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/gcc/business/user/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/gcc/config/WebSocketConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/gcc/dataobject/ChatMessage$MessageType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/gcc/dataobject/ChatMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/toastr.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap/toastr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/jquery/jquery-3.6.4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/jquery/jquery-3.6.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/l2dwidget/L2Dwidget.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/l2dwidget/L2Dwidget.0.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/l2dwidget/L2Dwidget.common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/l2dwidget/L2Dwidget.common.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/l2dwidget/L2Dwidget.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/l2dwidget/L2Dwidget.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/popper/popper-utils.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/popper/umd/popper-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/popper/umd/popper-utils.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/popper/umd/popper-utils.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/popper/umd/popper-utils.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/popper/umd/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/popper/umd/popper.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/popper/umd/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/popper/umd/popper.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/websocket/sockjs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/websocket/stomp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/moc/wanko.1024/texture_00.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/moc/wanko.moc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/mtn/idle_01.mtn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/mtn/idle_02.mtn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/mtn/idle_03.mtn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/mtn/idle_04.mtn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/mtn/shake_01.mtn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/mtn/shake_02.mtn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/mtn/touch_01.mtn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/mtn/touch_02.mtn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/mtn/touch_03.mtn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/mtn/touch_04.mtn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/mtn/touch_05.mtn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/mtn/touch_06.mtn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/models/wanko/assets/wanko.model.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/room.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gcc/business/user/UserList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gcc/business/chatcontroller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gcc/business/chatcontroller/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gcc/business/htmlcontroller/HtmlController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gcc/business/htmlcontroller/HtmlController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gcc/business/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gcc/business/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/room.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/room.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gcc/business/chatcontroller/ChatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gcc/business/chatcontroller/ChatController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gcc/business/htmlcontroller/HtmlController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gcc/business/htmlcontroller/HtmlController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gcc/business/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gcc/business/user/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/room.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/room.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,6 +44,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -234,8 +112,17 @@
       <workItem from="1699604642180" duration="316000" />
       <workItem from="1699619224215" duration="1584000" />
       <workItem from="1700210011112" duration="894000" />
-      <workItem from="1700291727548" duration="2029000" />
+      <workItem from="1700291727548" duration="5835000" />
     </task>
+    <task id="LOCAL-00001" summary="初始化">
+      <option name="closed" value="true" />
+      <created>1700294101666</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700294101666</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +133,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

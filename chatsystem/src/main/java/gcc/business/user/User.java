@@ -1,16 +1,21 @@
 package gcc.business.user;
 
-import java.util.ArrayList;
-import java.util.List;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class User {
-    private String username;
+    /**
+     * 姓名
+     */
+    String username;
 
-    public static List<String> userList = new ArrayList<>();
-
-    public static List<String> getUserList(){
-        return userList;
-    }
-
-
+    /**
+     * 会员
+     */
+    Boolean isVip;
 }

@@ -84,7 +84,7 @@
         });
         stompClient.send("/app/chat.addUser",
                 {},
-                JSON.stringify({sender: username, type: 'JOIN', content:'进入了聊天室'})
+                JSON.stringify({sender: username, type: 'JOIN', content:'进入了聊天室'})  //发送ChatMessage请求体
         ); //发送消息去该路径
         $('#login-page').addClass('d-none');
         $('#chat-page').removeClass('d-none');

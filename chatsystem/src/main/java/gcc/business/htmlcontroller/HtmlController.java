@@ -1,7 +1,7 @@
 package gcc.business.htmlcontroller;
 
 import gcc.business.message.Message;
-import gcc.business.user.User;
+import gcc.business.user.UserList;
 import gcc.dataobject.ChatMessage;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -29,7 +29,7 @@ public class HtmlController {
     @RequestMapping("/checkRepeatedName")
     public @ResponseBody String checkRepeatedName(@RequestParam String username) {
 
-        if (User.getUserList().contains(username))
+        if (UserList.getUsernameList().contains(username))
             return "false";
 
         return "success";

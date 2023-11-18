@@ -61,7 +61,7 @@
         type: "POST",
         data: {"username":username},
         success: function (data) {
-          if(data==="success"){
+          if(data==="success"){   //如果检测到没有重复名
             connect();
           }else{
             toastr.warning("房间中有重复名字!");
@@ -84,7 +84,7 @@
         });
         stompClient.send("/app/chat.addUser",
                 {},
-                JSON.stringify({sender: username, type: 'JOIN', content:'进入了聊天室'})
+                JSON.stringify({sender: username, type: 'JOIN', content:'进入了聊天室'})  //发送ChatMessage请求体
         ); //发送消息去该路径
         $('#login-page').addClass('d-none');
         $('#chat-page').removeClass('d-none');
